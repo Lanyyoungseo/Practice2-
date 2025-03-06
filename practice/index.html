@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>English Tuition - Unlock Your Potential</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header Section with Video -->
+  <header id="home">
+    <div class="video-container">
+      <video width="100%" height="auto" autoplay muted loop>
+        <source src="assets/homepage.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="container">
+      <h1>Welcome to Eng.com</h1>
+      <p>Your pathway to mastering English, tailored to your needs.</p>
+      <a href="#services" class="btn">Start Learning Today</a>
+    </div>
+  </header>
+
+  <!-- Why Choose Us Section -->
+  <section id="services" class="services-section">
+    <h2>Why Choose Us?</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Experienced Tutors</h3>
+        <p>Our qualified tutors are here to help you every step of the way, whether you're starting from scratch or looking to refine your skills.</p>
+      </div>
+      <div class="service">
+        <h3>Customized Lessons</h3>
+        <p>We offer personalized lessons designed to suit your specific needs and learning goals.</p>
+      </div>
+      <div class="service">
+        <h3>Flexible Schedule</h3>
+        <p>Learn at your own pace and choose a schedule that fits your busy life. Online or in-person options available!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Students Say</h2>
+    <div class="testimonial">
+      <p>"I improved my English skills faster than I ever expected. The tutors were supportive and patient!" - Sarah</p>
+    </div>
+    <div class="testimonial">
+      <p>"The personalized lessons really helped me. I feel much more confident in my speaking and writing now." - John</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact-section" id="contact">
+    <h2>Get in Touch</h2>
+    <form action="submit_form.php" method="POST">
+      <input type="text" placeholder="Your Name" name="name" required>
+      <input type="email" placeholder="Your Email" name="email" required>
+      <textarea placeholder="Your Message" name="message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 English Tuition. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
